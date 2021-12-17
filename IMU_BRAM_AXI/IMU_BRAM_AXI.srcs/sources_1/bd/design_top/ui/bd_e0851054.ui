@@ -1,0 +1,90 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.436227",
+   "Default View_TopLeft":"-115,-112",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 3 -x 2530 -y 50 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 3 -x 2530 -y 80 -defaultsOSRD
+preplace port leds_4bits -pg 1 -lvl 3 -x 2530 -y 110 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -30 -y 200 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x -30 -y 260 -defaultsOSRD
+preplace port port-id_en -pg 1 -lvl 0 -x -30 -y 230 -defaultsOSRD
+preplace port port-id_MISO -pg 1 -lvl 0 -x -30 -y 170 -defaultsOSRD
+preplace port port-id_LED_s -pg 1 -lvl 3 -x 2530 -y 200 -defaultsOSRD
+preplace port port-id_LED_e -pg 1 -lvl 3 -x 2530 -y 170 -defaultsOSRD
+preplace port port-id_cs -pg 1 -lvl 3 -x 2530 -y 290 -defaultsOSRD
+preplace port port-id_SCLK -pg 1 -lvl 3 -x 2530 -y 260 -defaultsOSRD
+preplace port port-id_MOSI -pg 1 -lvl 3 -x 2530 -y 230 -defaultsOSRD
+preplace portBus BRAM_dout -pg 1 -lvl 3 -x 2530 -y 140 -defaultsOSRD
+preplace inst PS_interface -pg 1 -lvl 1 -x 120 -y 108 -defaultsOSRD
+preplace inst IMU_interface -pg 1 -lvl 2 -x 1526 -y 212 -defaultsOSRD
+preplace inst PS_interface|processing_system7_0 -pg 1 -lvl 1 -x 280 -y 338 -defaultsOSRD
+preplace inst PS_interface|axi_smc -pg 1 -lvl 2 -x 640 -y 398 -defaultsOSRD
+preplace inst PS_interface|axi_gpio_0 -pg 1 -lvl 3 -x 940 -y 438 -defaultsOSRD
+preplace inst PS_interface|rst_ps7_0_100M -pg 1 -lvl 1 -x 280 -y 148 -defaultsOSRD
+preplace inst PS_interface|axi_bram_ctrl_0 -pg 1 -lvl 3 -x 940 -y 208 -defaultsOSRD
+preplace inst IMU_interface|SPI_FSM_0 -pg 1 -lvl 2 -x 1816 -y 762 -defaultsOSRD
+preplace inst IMU_interface|axi_bram_ctrl_0_bram -pg 1 -lvl 3 -x 2176 -y 392 -defaultsOSRD
+preplace inst IMU_interface|clk_divider_0 -pg 1 -lvl 1 -x 1526 -y 752 -defaultsOSRD
+preplace inst IMU_interface|output_sel_0 -pg 1 -lvl 3 -x 2176 -y 192 -defaultsOSRD
+preplace inst IMU_interface|Control_FSM_0 -pg 1 -lvl 2 -x 1816 -y 462 -defaultsOSRD
+preplace netloc Control_FSM_0_LED_e 1 2 1 2470J 170n
+preplace netloc Control_FSM_0_LED_s 1 2 1 2480J 200n
+preplace netloc MISO_1 1 0 2 20J 822 NJ
+preplace netloc SPI_FSM_0_MOSI 1 2 1 2490J 230n
+preplace netloc SPI_FSM_0_SCLK 1 2 1 2500J 260n
+preplace netloc SPI_FSM_0_cs 1 2 1 2510J 290n
+preplace netloc clk_1 1 0 2 10J 842 NJ
+preplace netloc en_1 1 0 2 0J 862 NJ
+preplace netloc output_sel_0_dout 1 2 1 2460J 140n
+preplace netloc rst_1 1 0 2 -10J 882 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 1 1260 312n
+preplace netloc axi_gpio_0_GPIO 1 1 2 1250J 102 2460J
+preplace netloc processing_system7_0_DDR 1 1 2 1230J 50 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 1240J 80 NJ
+preplace netloc PS_interface|processing_system7_0_FCLK_CLK0 1 0 3 70 448 500 318 800
+preplace netloc PS_interface|processing_system7_0_FCLK_RESET0_N 1 0 2 80 458 480
+preplace netloc PS_interface|rst_ps7_0_100M_peripheral_aresetn 1 1 2 490 228 780
+preplace netloc PS_interface|axi_bram_ctrl_0_BRAM_PORTA 1 3 1 1080 208n
+preplace netloc PS_interface|axi_gpio_0_GPIO 1 3 1 N 408
+preplace netloc PS_interface|axi_smc_M00_AXI 1 2 1 790 188n
+preplace netloc PS_interface|axi_smc_M01_AXI 1 2 1 790 408n
+preplace netloc PS_interface|processing_system7_0_DDR 1 1 3 N 288 NJ 288 NJ
+preplace netloc PS_interface|processing_system7_0_FIXED_IO 1 1 3 N 308 NJ 308 NJ
+preplace netloc PS_interface|processing_system7_0_M_AXI_GP0 1 1 1 480 348n
+preplace netloc IMU_interface|Control_FSM_0_LED_e 1 2 2 1996 252 NJ
+preplace netloc IMU_interface|Control_FSM_0_LED_s 1 2 2 2036 532 NJ
+preplace netloc IMU_interface|Control_FSM_0_addr 1 1 2 1676 282 1956
+preplace netloc IMU_interface|Control_FSM_0_addr_BRAM 1 2 1 1986 352n
+preplace netloc IMU_interface|Control_FSM_0_dout_BRAM 1 2 1 2006 392n
+preplace netloc IMU_interface|Control_FSM_0_dout_TW 1 1 2 1686 292 1946
+preplace netloc IMU_interface|Control_FSM_0_wea_BRAM 1 2 1 N 472
+preplace netloc IMU_interface|Control_FSM_0_wr 1 1 2 1646 262 1976
+preplace netloc IMU_interface|MISO_1 1 0 2 NJ 822 N
+preplace netloc IMU_interface|SPI_FSM_0_MOSI 1 2 2 2016 712 NJ
+preplace netloc IMU_interface|SPI_FSM_0_SCLK 1 2 2 N 732 NJ
+preplace netloc IMU_interface|SPI_FSM_0_cs 1 1 3 1656 882 2046 752 NJ
+preplace netloc IMU_interface|SPI_FSM_0_dout 1 1 2 1666 272 1966
+preplace netloc IMU_interface|axi_bram_ctrl_0_bram_doutb 1 2 1 2046 192n
+preplace netloc IMU_interface|clk_1 1 0 1 1426 742n
+preplace netloc IMU_interface|clk_divider_0_clk_div 1 1 2 1626 322 2036J
+preplace netloc IMU_interface|en_1 1 0 3 NJ 862 1636 332 2016J
+preplace netloc IMU_interface|output_sel_0_dout 1 3 1 NJ 192
+preplace netloc IMU_interface|rst_1 1 0 3 1436 832 1616 302 2026J
+preplace netloc IMU_interface|axi_bram_ctrl_0_BRAM_PORTA 1 0 3 NJ 312 NJ 312 N
+levelinfo -pg 1 -30 120 1526 2530
+levelinfo -hier PS_interface * 280 640 940 *
+levelinfo -hier IMU_interface * 1526 1816 2176 *
+pagesize -pg 1 -db -bbox -sgen -120 0 2690 930
+pagesize -hier PS_interface -db -bbox -sgen 50 48 1110 528
+pagesize -hier IMU_interface -db -bbox -sgen 1396 132 2336 892
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"1",
+   "da_bram_cntlr_cnt":"2",
+   "da_ps7_cnt":"1"
+}
